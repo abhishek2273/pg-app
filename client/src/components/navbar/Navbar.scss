@@ -1,0 +1,86 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(122, 95, 238);
+    font-family: "Montserrat", sans-serif;
+    position: sticky;
+    top: 0;
+
+    .container {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 20px 30px;
+
+        .logo {
+            font-size: 30px;
+            font-weight: bold;
+            font-family: sans-serif;
+            color: white;
+        }
+
+        .links {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+
+            button {
+                border: 0.1px solid white;
+                border-radius: 7px;
+                padding: 6px;
+                font-weight: 700;
+                color: blue;
+                background-color: white;
+            }
+
+            // @media screen and (max-width: 500px) {
+            //     display: none;
+            // }
+        }
+
+        .user {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+            position: relative;
+
+            .user_img {
+                // filter: invert(100%);
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+
+            span {
+                color: white;
+                font-size: 25px;
+                font-weight: 500;
+            }
+
+            ;
+
+            .options {
+                position: absolute;
+                top: 50px;
+                right: 0;
+                padding: 20px;
+                background-color: white;
+                color: black;
+                border-radius: 10px;
+                z-index: 999;
+                border: 1px solid lightgrey;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                width: 150px;
+                // width:250px;
+                font-weight: 500;
+                color: gray;
+                justify-content: center;
+            }
+        }
+    }
+}

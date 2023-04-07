@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.addHotels {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+
+    form {
+        padding: 40px 50px;
+        border: 1px solid rgb(114, 141, 149);
+        gap: 20px;
+        background-color: white;
+        border-radius: 1em;
+        h2 {
+            color: black;
+            margin-bottom: 20px;
+            // text-align: center;
+        }
+
+        label {
+            margin-right: 5px;
+            font-weight: 600;
+        }
+        .list {
+            margin-bottom: 10px;
+        }
+    }
+}
